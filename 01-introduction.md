@@ -555,6 +555,52 @@ Voici d’autres exemples de composants DevOps qui s’appliquent aux DataOps :
 
 ![](./imgs/flowdataops.png)
 
+# Les bénéfices et cas d’usage du DataOps
+
+Cela démontre clairement pourquoi les entreprises Big Data s’appuient de plus en plus souvent sur les pratiques DevOps et impliquent des spécialistes des données au sein des processus CI/CD. Les avantages en sont les suivants :
+
+![](./imgs/cycleDataOps.png)
+
+
+### Une planification plus efficace des mises à jour logicielles
+
+Il faut dire que la plupart des logiciels interagissent avec les données d’une manière ou d’une autre. Lorsque vous mettez à jour ou reconcevez une application, vous voulez avoir la compréhension la plus précise possible des types de sources de données avec lesquelles votre application fonctionnera.
+
+### Des taux d’erreur inférieurs
+
+En effet, les problèmes de gestion des données peuvent être une source importante d’erreurs lors de l’écriture et du test du logiciel. Plus votre application et les données avec lesquelles elle fonctionne sont complexes, plus le risque d’erreurs est élevé.
+
+Trouver ces erreurs au début du pipeline de livraison de logiciels (ou, mieux encore, les éviter en premier lieu) permet d’économiser du temps et des efforts. (Il s’agit du principe DevOps du « shift-left », qui met l’accent sur les tests précoces des modifications de code). On minimise donc ces risques grâce à des tests continus dès les premières étapes.
+
+Une collaboration étroite entre les experts en données et le reste de l’équipe DevOps est alors cruciale en cas de problème pour trouver et corriger les erreurs liées aux données dans une application.
+
+### Une meilleure cohérence entre les environnements de développement et de production
+
+Le mouvement DevOps souligne l’importance de faire en sorte que les environnements de développement soient identiques aux environnements de production.
+
+En étant impliqués tout au long du processus de livraison du logiciel, les experts en données peuvent aider le reste de l’équipe à comprendre les types de problèmes de données auxquels leur logiciel sera confronté en production. La collaboration entre les équipes Big Data et DevOps conduira ainsi à des applications dont le comportement réel correspond le plus possible à son comportement dans les environnements de développement et de test.
+
+### Un retour plus précis de la production
+
+La dernière partie du processus de livraison continue consiste à collecter des données à partir de votre environnement de production après la sortie de votre logiciel.
+
+En apportant leurs compétences en analyse de données au processus de rétroaction DevOps, les experts en données peuvent s’assurer que l’organisation a la meilleure compréhension possible de ce qui fonctionne et de ce qui ne fait pas partie de la chaîne de livraison continue DevOps.
+
+### De la précision dans la rétroaction
+
+Une fois qu’une application ou un logiciel est produit et publié, certaines données sont collectées. Ensuite, ces données sont analysées et les équipes déterminent quelle partie du logiciel fonctionne bien (ou pas).
+
+Ces données sont utiles car elles constituent une base pour la prochaine mise à jour du logiciel/de l’application. Les données collectées pour l’analyse incluent la santé de l’application et de l’infrastructure sous-jacente grâce à des outils d’observabilité.
+
+### Les processus sont automatisés
+
+L’approche DevOps permet effectivement d’automatiser la migration et la traduction de données, ou encore d’améliorer la qualité des données.
+
+### Une analyse continue est fournie
+
+Votre projet bénéficiera d’une autre pratique DevOps utile telle que l’analyse continue, qui rationalise les processus d’analyse des données et les automatise via des algorithmes.
+
+
 # Conclusion
 
 En conclusion sans reprendre l'ensemble des concepts essentiel est d'être plus réactif pour la mise en place des nouvelles fonctionnalités et plus efficace en cassant le mur de l'incompréhension entre le développement et les opérations ! Le tous en augmentant le niveau de confiance des opérations ainsi que l'autonomie des développeurs. 
