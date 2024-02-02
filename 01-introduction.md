@@ -36,7 +36,7 @@ travaux antérieurs sur les données pour trouver de nouvelles idées.
 Permettre l'innovation en matière de données qui s'appuie sur des connaissances antérieures, en évitant les retouches dues à l'ignorance.
 
 
-# Du mode classique à la méthode DataOps
+# Du mode classique au Manifeste Agile
 
 Je pense que si nous comprenons le cheminement du changement de méthode, ceci simplifiera grandement la compréhension du concept.
 
