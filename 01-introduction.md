@@ -505,6 +505,25 @@ Ainsi, le Big Data permet à une organisation d’obtenir plus de réponses aux 
 
 ![](./imgs/bigdata.png)
 
+# Intégrer les pratiques DevOps à la data : le DataOps
+
+Les projets Big Data peuvent s’avérer difficiles en termes de :
+
+* gestion de grandes quantités de données complexes,
+
+* livraison du projet accélérée afin de rester compétitif sur le marché,
+
+* réponses rapides aux changements.
+
+Sans les pratiques DevOps, tout cela est donc difficile à résoudre. Traditionnellement, les différentes équipes et membres de l’équipe (architectes de données, analystes, administrateurs, etc.) travaillent de manière isolée sur leur part de travail. Or, ce n’est pas favorable pour une livraison rapide.
+
+Contrairement à cette approche, le DevOps rassemble tous les participants du pipeline de livraison de logiciels et supprime les barrières entre eux.
+
+Votre équipe Big Data devient alors transverse, augmente son efficacité opérationnelle et obtient une vision mieux partagée de l’objectif du projet.
+
+
+![](./imgs/dataops.png)
+
 # Conclusion
 
 En conclusion sans reprendre l'ensemble des concepts essentiel est d'être plus réactif pour la mise en place des nouvelles fonctionnalités et plus efficace en cassant le mur de l'incompréhension entre le développement et les opérations ! Le tous en augmentant le niveau de confiance des opérations ainsi que l'autonomie des développeurs. 
