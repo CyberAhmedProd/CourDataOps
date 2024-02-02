@@ -23,6 +23,19 @@ L'objectif de ce cours est de partager une méthodologie qui peut être utilisé
 fournir des données aux consommateurs de données, qu'il s'agisse de data scientists ou d'analystes commerciaux,
 ou de toute autre personne d'une organisation souhaitant obtenir des informations.
 
+# Une méthodologie
+
+Une méthodologie nous permet de garantir que les données utilisées pour résoudre les problèmes sont pertinentes, fiables et traçables pour répondre à la question posée.
+Il fournit un ensemble de méthodes, de directives et de pratiques qui, lorsqu'elles sont utilisées, améliorent la probabilité d'obtenir les résultats souhaités.Dans ce cas,les données correctes et fiables seront fournies aux personnes qui souhaitent les utiliser.
+
+Les données sont fiables car elles ont été transmises par le biais d'un processus standard.
+Les données sont plus couramment utilisées car elles sont partagées dans
+un catalogue dont les caractéristiques permettent de les retrouver facilement.
+La manière dont les données sont utilisées est également partagée afin que les personnes puissent apprendre les unes des autres et tirer parti des
+travaux antérieurs sur les données pour trouver de nouvelles idées.
+Permettre l'innovation en matière de données qui s'appuie sur des connaissances antérieures, en évitant les retouches dues à l'ignorance.
+
+
 # Du mode classique à la méthode DataOps
 
 Je pense que si nous comprenons le cheminement du changement de méthode, ceci simplifiera grandement la compréhension du concept.
