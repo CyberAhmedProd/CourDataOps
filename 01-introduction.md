@@ -524,6 +524,35 @@ Votre équipe Big Data devient alors transverse, augmente son efficacité opéra
 
 ![](./imgs/dataops.png)
 
+
+Le DataOps est donc une hybridation intéressante du DevOps, c’est ce qu’on peut appeler une « agglomération ». Le DataOps est une méthodologie qui combine la technologie, les processus, les principes et le personnel pour automatiser l’orchestration des données dans l’ensemble d’une organisation.
+
+C’est pour cette raison que les organisations utilisent le DataOps, afin de fournir des données à la demande de haute qualité en accélérant le développement et le déploiement de workflows de données automatisés.
+
+À mesure que les organisations se développent et que les demandes de données deviennent plus complexes, le DataOps offre un cadre plus flexible pour fournir les bonnes données, au bon moment, à la bonne partie prenante. Il déploie rapidement une nouvelle infrastructure de données pour répondre aux priorités, en constante évolution, de tous les clients.
+
+Le DataOps adopte bon nombre des mêmes principes que le DevOps. Mais tandis que le DevOps automatise le déploiement de logiciels, le DataOps automatise l’orchestration des données : la livraison de bout en bout des données de la source à la cible.
+
+Ces workflows de données automatisent l’ingestion, la transformation et l’orchestration des données.
+
+Le « produit logiciel » sur lequel les équipes DataOps travaillent pendant les sprints est généralement basée sur une infrastructure de données. Dans certains cas, l’infrastructure est en fait traitée comme du code (IAC).
+
+On retrouve les items du DevOps assez facilement :
+
+  *  **Infrastructure** : provisioning des jeux de données, déploiement de clusters, installation d’outils et de configurations, politiques de sécurité.
+  *  **Ingénierie des données** : définir la structure des données, ETL (Extract/Transform/Load), créer des API et fournir une plate-forme de données en tant que service qui prend en charge les scientifiques des données.
+  *  **Analyse des données** : Construire des modèles, transformer des prototypes en solutions opérationnelles.
+
+La science des données (Data Science) est aussi un développement. Le scientifique des données doit écrire du code et tester les résultats afin de trouver une solution, et cette solution doit être opérationnalisée / automatisée.
+
+Voici d’autres exemples de composants DevOps qui s’appliquent aux DataOps :
+
+  *  Le contrôle de version permet aux équipes de développement de suivre et de contrôler les changements dans l’infrastructure de données, à travers différentes versions et périodes de temps. Cela rationalise la révision, la réversion et le débogage.
+  *  L’intégration continue (CI) intègre le code du développeur avec une branche de code principale.
+  *  Les tests automatisés effectuent des tests automatisés sur la nouvelle infrastructure de données pour fournir à l’équipe un retour immédiat, y compris des tests unitaires, des tests fonctionnels ainsi que des tests de bout en bout (et des tests de sécurité !)
+  *  La livraison continue (CD) garantit la qualité et la cohérence. Cela permet d’éviter les bugs et les interruptions pour les utilisateurs.
+  *  Le déploiement continu (CD) pousse automatiquement la nouvelle infrastructure de données en direct, dans l’environnement de production, idéalement lors de petits changements fréquents
+
 # Conclusion
 
 En conclusion sans reprendre l'ensemble des concepts essentiel est d'être plus réactif pour la mise en place des nouvelles fonctionnalités et plus efficace en cassant le mur de l'incompréhension entre le développement et les opérations ! Le tous en augmentant le niveau de confiance des opérations ainsi que l'autonomie des développeurs. 
