@@ -23,7 +23,7 @@ L'objectif de ce cours est de partager une méthodologie qui peut être utilisé
 fournir des données aux consommateurs de données, qu'il s'agisse de data scientists ou d'analystes commerciaux,
 ou de toute autre personne d'une organisation souhaitant obtenir des informations.
 
-# Une méthodologie
+# Le besoin d'une méthodologie
 
 Une méthodologie nous permet de garantir que les données utilisées pour résoudre les problèmes sont pertinentes, fiables et traçables pour répondre à la question posée.
 Il fournit un ensemble de méthodes, de directives et de pratiques qui, lorsqu'elles sont utilisées, améliorent la probabilité d'obtenir les résultats souhaités.Dans ce cas,les données correctes et fiables seront fournies aux personnes qui souhaitent les utiliser.
