@@ -85,7 +85,7 @@ Ce changement de mode de travail des développeurs sera un des premiers tournant
 
 La situation sur-le-champ de bataille est donc la suivante :
 
-* Le Développeur qui se prend pour un super Héros, il désire pousser ces fonctionnalités "SANS BUGS" qu'il a développés  ( et oui j'étais un Opérateur  ) 
+* Le Développeur qui se prend pour un super Héros, il désire pousser ces fonctionnalités "SANS BUGS" qu'il a développés.
 
 ![](./imgs/dev-super-hero.png)
 
@@ -239,11 +239,10 @@ C'est parti pour le détail pour y arriver
 
 ### Collaboration
 
-Oui, je vais encore le répéter  , la collaboration entre les gens, car au final c'est les hommes qui font le travail et qui réussissent de grandes choses. Je ne sais pas qui a dit ça à l'origine, mais ce fut mentionné dans un emploi passé. 
+La collaboration entre les gens est essentielle, car au final c'est les Hommes qui font le travail et qui réussissent de grandes choses. Je ne sais pas qui a dit ça à l'origine, mais ce fut mentionné dans un emploi passé. 
 
 > Tous seul on va plus vite, mais ensemble on va plus loin !! 
 
-J'aime bien cette citation , elle représente bien le travail collaboratif .
 
 Donc l'ensemble des personnes doivent être unies dans le but et travailler ensemble , voici une autre représentation de cette unité :
 
@@ -496,6 +495,15 @@ En déléguant ou en fournissant la possibilité aux gens de le faire eux même 
 3. Vous avez des utilisateurs qui testent vos applications et vous rapportent des __bugs__ pour les améliorer, pour les personnes qui se disent ouin, mais mon script est pas près ... Blablabla ... Nos stress faîte comme Microsoft tu sors l'application pleine de bugs puis après tu correctifs, on dira ce que l'on veut de Bill Gates, mais au moins il a éduqué l'utilisateur. De nos jours personne ne s’attend à ce qu'un nouveau programme fonctionne bien :D ( Thanks Bill ) 
 
 Bien entendu ceci s'applique aussi pour la visualisation des logs, c'est vraiment ennuyeux de recevoir un courriel , est-ce possible de me transmettre les logs de tels serveurs ? Avec **splunk** , **ELK** ou peu importe la solution tu peux lui dire va y tout seul !! Puis ce qui est magnifique si le gars ou la fille rentre le matin à 7:00 du matin , la personne te fera pas chier si tôt si c'est une urgence, elle le consultera toute seule.
+
+# Qu’est-ce que le Big Data ?
+Le terme « Big Data » a été initialement fourni par l’institut Gartner : « le Big Data est une forte volumétrie, haute vélocité et grande variété de données qui exigent des techniques innovantes et rentables de traitement d’information pour une meilleure prise de décision ».
+
+Le Big Data est un phénomène caractérisé par une explosion des données, données qui peuvent contenir des opportunités qu’on peut saisir, non pas à l’aide d’approches technologiques traditionnelles, mais à l’aide d’approches technologiques innovantes. C’est en fait une collection sophistiquée et massive d’ensembles de données. L’équipe Big Data comprend entre autres des Data Engineers, des Data Analysts et des data Scientists.
+
+Ainsi, le Big Data permet à une organisation d’obtenir plus de réponses aux requêtes, plus d’informations présentes dans les données. Et obtenir plus de réponses signifie qu’une organisation peut s’attaquer à des problèmes plus complexes voire anticiper des tendances métiers.
+
+![](./imgs/bigdata.png)
 
 # Conclusion
 
