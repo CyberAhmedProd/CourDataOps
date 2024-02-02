@@ -553,6 +553,8 @@ Voici d’autres exemples de composants DevOps qui s’appliquent aux DataOps :
   *  La livraison continue (CD) garantit la qualité et la cohérence. Cela permet d’éviter les bugs et les interruptions pour les utilisateurs.
   *  Le déploiement continu (CD) pousse automatiquement la nouvelle infrastructure de données en direct, dans l’environnement de production, idéalement lors de petits changements fréquents
 
+![](./imgs/flowdataops.png)
+
 # Conclusion
 
 En conclusion sans reprendre l'ensemble des concepts essentiel est d'être plus réactif pour la mise en place des nouvelles fonctionnalités et plus efficace en cassant le mur de l'incompréhension entre le développement et les opérations ! Le tous en augmentant le niveau de confiance des opérations ainsi que l'autonomie des développeurs. 
