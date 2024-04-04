@@ -15,7 +15,7 @@ Que pouvons nous exécuter avec Jenkins ?
 
 * Des projets basés sur Apache Ant 
 * Apache Maven 
-* Des scripts arbitraires en shell Unix ou batch Windows. ( En d'autre mot N'IMPORTE QUOI :D ) 
+* Des scripts arbitraires en shell Unix ou batch Windows.
 
 L'application est développé en Java et sous [Licence MIT](https://fr.wikipedia.org/wiki/Licence_MIT)
 
@@ -40,18 +40,18 @@ Telle que mentionné plus tôt le nombre de plugins sont impressionnant : [https
 
 ## Installation de Jenkins 
 
-Bon nous orientons surtout la formation sur la pratique donc débutons avec l'installation , honnêtement je suis super paresseux et depuis l'arrivée **docker** ça n'a pas arrangé les choses. En d'autre mot je suis un bon DevOps / sysadmin :D , la paresse est un art mais demande beaucoup de temps pour la mettre en place :D. Nous réaliserons donc l'installation avec un conteneur !!
+Bon nous orientons surtout la formation sur la pratique donc débutons avec l'installation , honnêtement je suis super paresseux et depuis l'arrivée **docker** ça n'a pas arrangé les choses. En d'autre mot je suis un bon DevOps / sysadmin , la paresse est un art mais demande beaucoup de temps pour la mettre en place. Nous réaliserons donc l'installation avec un conteneur !!
 
 ### Installation avec Docker
 
-Bon voilà le problème en ce moment avec **docker** et les images officiel parfois elle ne sont plus disponible :-/ , originalement il y avait [https://hub.docker.com/_/jenkins/](https://hub.docker.com/_/jenkins/) , mais si vous regardez la page il y a le message :
+Bon voilà le problème en ce moment avec **docker** et les images officiel parfois elle ne sont plus disponible , originalement il y avait [https://hub.docker.com/_/jenkins/](https://hub.docker.com/_/jenkins/) , mais si vous regardez la page il y a le message :
 
 > DEPRECATED
 > 
 > This image has been deprecated in favor of the jenkins/jenkins:lts image provided and maintained by Jenkins Community as part of project's release process
 > The images found here will receive no further updates after LTS 2.60.x. Please adjust your usage accordingly.
 
-Donc nous devons nous tourner vers l'image : [https://hub.docker.com/r/jenkins/jenkins/](https://hub.docker.com/r/jenkins/jenkins/) , ceci est l'image suggérer par la [documentation officiel de jenkins](https://jenkins.io/doc/book/getting-started/installing/#docker) . Il est évident que ceci n'aide pas l'utilisateur de docker mais que voulez vous ... :-/
+Donc nous devons nous tourner vers l'image : [https://hub.docker.com/r/jenkins/jenkins/](https://hub.docker.com/r/jenkins/jenkins/) , ceci est l'image suggérer par la [documentation officiel de jenkins](https://jenkins.io/doc/book/getting-started/installing/#docker) . Il est évident que ceci n'aide pas l'utilisateur de docker mais que voulez vous ...
 
 Pour les besoins de la démonstration je vais principalement utiliser le service de Jenkins en __standalone__ sans slave , je couvrirai plus la partie de l'ajout d'agent par la suite . 
 
@@ -148,7 +148,7 @@ Quand nous allons sur le service : http://172.31.0.2:8080 , nous aurons ceci .
 
 Nous devrons dons saisir la clé qui fut affiché lors du démarrage , dans notre cas : 041688506d8b4f1484ff13ff9c0367ac 
 
-Nous installerons les plugins suggérer quand on débutte ces toujours une bonne idée :P 
+Nous installerons les plugins suggérer quand on débutte ces toujours une bonne idée 
 
 ![](./imgs/02-initialisation-jenkins-select-plugins.png)
 
@@ -156,7 +156,7 @@ Nous installerons les plugins suggérer quand on débutte ces toujours une bonne
 
 ![](./imgs/03-initialisation-jenkins-creation-compte-admin.png)
 
-* Prêt à jouer :D 
+* Prêt à jouer
 
 ![](./imgs/04-initialisation-jenkins-pret-a-usage.png)
 
@@ -171,7 +171,7 @@ Si nous reprenons la page d'accueil du logiciel :
 ![](./imgs/05-home-jenkins.png)
 
 * **New Item** : Parfois on appel ça job , parfois item , j'ai voulu le mettre sous le projecteur
-* **Manage Jenkins** : Même raison , quand on vient de déployer une application et que l'on veut voir les options de configuration disponible , le voir tous de suite c'est cool :D.
+* **Manage Jenkins** : Même raison , quand on vient de déployer une application et que l'on veut voir les options de configuration disponible , le voir tous de suite c'est cool .
 * **Agent / slave** :  Telle que mentionné pour le moment nous utiliserons le serveur Jenkins comme **orchestrateur** et serveur d'exécution , mais lorsque nous allons avoir d'autre slave nous aurons une plus grande liste !
 
 Nous allons faire une petite job très simple pour voir le comportement et les options , avant de voir les paramètres disponible , je crois qu'une présentation de ce que peux faire Jenkins est idéal . Plusieurs d'entre vous connaisse déjà le produit ce sera une révision et pour les autres ça permettra de mettre tous le monde à peu près sur le même pied.
@@ -213,7 +213,7 @@ Nous allons ajouter une étape , je vais sélectionner **Execute shell**, pour g
 
 ![](./imgs/07-2-setup-job-add-build.png)
 
-Et je vais mettre une petite job simple qui affiche l'heure et le type de CPU de la machine de build, si vous vous dites c'est null oui je sais mais je manque d'imagination . :P
+Et je vais mettre une petite job simple qui affiche l'heure et le type de CPU de la machine de build, si vous vous dites c'est null oui je sais mais je manque d'imagination .
 
 Donc voici la commande :
 
@@ -257,7 +257,7 @@ Nous allons pouvoir ajouter plusieurs type de paramètres :
 Dans mon cas je ne vais définir 2 type :
 
 * **string** :  Nous allons écrire le résultat de l'opération dans un fichier qui sera passé en paramètre
-* **boolean** : Juste pour en mettre un deuxième :P , qui indiquera si oui ou non on crée un fichier ou juste l'afficher à l'écran :D
+* **boolean** : Juste pour en mettre un deuxième , qui indiquera si oui ou non on crée un fichier ou juste l'afficher à l'écran
 
 Voici le résultat de la définition :
 
@@ -375,7 +375,7 @@ Comme vous pouvez le voir vous pouvez aussi supprimer le contenu de l'espace du 
 
 Comme vous pouvez le voir sur la copie d'écran j'avais fait une erreur avec un nom de fichier contenant de **-** , le fichier __-NAME-2-WRITE__. 
 
-Mais il est où ? :P 
+Mais il est où ? 
 
 Ce répertoire de travail peut être configurable que ce soit sur le serveur __master__ ou __slave__ , regardons par défaut sur le conteneur .
 
@@ -420,7 +420,7 @@ total 8
 -rw-r--r-- 1 jenkins jenkins 54 Aug 14 08:21 toto   
 ```
 
-Comme nous avons exporté le répertoire __/var/jenkins\_home__ du conteneur normalement ce répertoire est aussi disponible directement sur votre file système sans passer par le conteneur ! Et j'espère que vous l'avez fait sinon à la prochaine mise à jour vous perdrez vos configurations :D.
+Comme nous avons exporté le répertoire __/var/jenkins\_home__ du conteneur normalement ce répertoire est aussi disponible directement sur votre file système sans passer par le conteneur ! Et j'espère que vous l'avez fait sinon à la prochaine mise à jour vous perdrez vos configurations.
 
 ### Quelque paramètre intéressant 
 
@@ -438,21 +438,21 @@ Maintenant que nous avons une petite compréhension simpliste de ce que fait une
     * **Trigger builds remotely (e.g., from scripts)** : 
         Nous prendrons un peu de temps pour voir cette possibilité plus tard avec un exemple concret , cependant il est possible d'appeler la page Jenkins avec un TOKEN secret pour faire l'appel de la tâche très intéressant lors de la mis en place d'intégration tous en conservant une visibilité
     * **Build periodically** : 
-        Permet de définir sous la forme de la syntaxe de **cron** une période d'exécution, une chose que je trouve intéressant avec cette méthode est que nous avons la possibilité d'avoir la tâche planifier et nous permettons à l'utilisateur de l'exécuter manuel quand il veut. De plus comme il voit si c'est en cours il ne pourra pas l'exécuter de manière simultané :D.
+        Permet de définir sous la forme de la syntaxe de **cron** une période d'exécution, une chose que je trouve intéressant avec cette méthode est que nous avons la possibilité d'avoir la tâche planifier et nous permettons à l'utilisateur de l'exécuter manuel quand il veut. De plus comme il voit si c'est en cours il ne pourra pas l'exécuter de manière simultané.
 
 * **Build Environment**
     * **Delete workspace before build starts**:
         Il est possible d'indiquer au processus de build de supprimer l'espace de travail avant de débutter le processus, il est même possible en cliquant sur advance de définir un pattern . Donc vous ne supprimer pas tous, mais uniquement un type de fichier, il est aussi possible d'utiliser une variables d'environnement pour l'avoir configurable.
         ![](./imgs/10-2-delete-workspace-advance.png)
     * **Abort the build if it's stuck**:
-        Définition de ce qui doit ce produire si la tâche ne progresse plus et oui parfois notre code contient des erreurs que faire alors ? Attendre indéfiniment ou l'arrêter ?!?! Tous comme pour l'avantage de la configuration du cron dans Jenkins ceci à l'avantage de ne pas être requis dans votre script . Vous laissez cette tâche ingrate à Jenkins :D.
+        Définition de ce qui doit ce produire si la tâche ne progresse plus et oui parfois notre code contient des erreurs que faire alors ? Attendre indéfiniment ou l'arrêter ?!?! Tous comme pour l'avantage de la configuration du cron dans Jenkins ceci à l'avantage de ne pas être requis dans votre script . Vous laissez cette tâche ingrate à Jenkins.
         ![](./imgs/10-3-build-stuck-so.png)
     * **Add timestamps to the Console Output**:
         Très bien ça surtout pour les tâches longue , car elle permet de voir l'évolution du script dans le temps directement dans le log de la console.
 
 ## Tour d'horizon de la configuration de Jenkins 
 
-On peut pas dire que l'on maitrise Jenkins a ce stade cependant, nous avons une légère petite meilleur compréhension de ce que l'on peut faire , j'étais dans un problème d'œuf ou la poule. Montrer la configuration sans savoir les conséquences ou mettre en place une tâche sans la configuration, comme vous pouvez le constater j'ai fait un choix :D. 
+On peut pas dire que l'on maitrise Jenkins a ce stade cependant, nous avons une légère petite meilleur compréhension de ce que l'on peut faire , j'étais dans un problème d'œuf ou la poule. Montrer la configuration sans savoir les conséquences ou mettre en place une tâche sans la configuration, comme vous pouvez le constater j'ai fait un choix. 
 
 Revenons donc sur les configurations possible, encore une fois, j'ai une configuration minimal, très peu de plugins . Il est donc possible d'augmenter le nombre de fonctionnalité, nous en verrons quelques une par la suite.
 
@@ -517,7 +517,7 @@ La première vue que vous aurez est la liste des plugins qui doivent être mise 
 
 ![](./imgs/11-3-plugins-updates.png)
 
-Comme vous pouvez le voir sur la copie d'écran, la dernière validation des mise à jour date de plusieurs heures , ceci est réalisé périodiquement ( je sais plus la fréquence :P , mais comme je suis sur mon portable c'est encore moins fréquent :P ) . 
+Comme vous pouvez le voir sur la copie d'écran, la dernière validation des mise à jour date de plusieurs heures , ceci est réalisé périodiquement ( je sais plus la fréquence , mais comme je suis sur mon portable c'est encore moins fréquent ) . 
 
 Avant d'en mettre des nouveaux visualisons ceux déjà installé 
 
@@ -545,7 +545,7 @@ Comme vous pouvez le constater Jenkins à installé en plus :
 * Javadoc Plugin
 * Maven Integration Plugin
 
-Donc Jenkins gère la dépendance de plugins :D , c'est merveilleux !
+Donc Jenkins gère la dépendance de plugins , c'est merveilleux !
 
 En cochant la ligne : **Restart Jenkins when installation is complete and no jobs are running** , jenkins va redémarrer mais il va surtout s'assurer que aucun build ne va cassé car rien ne sera en exécution . 
 
@@ -616,7 +616,7 @@ Référence : https://wiki.jenkins.io/display/JENKINS/Securing+Jenkins
 
 Premièrement nous allons nous assurer qu'il faut être authentifier pour accéder au service .
 
-Nous verrons que nous pourrions offrir une visualisation en lecture seul lors des accès anonyme, mais je ne suis pas pour cette pratique. Car vous aurez des appel de support , la personne oublie de s'authentifier puis elle vous appel pour dire que telle option n'est plus disponible ... Après un moment de silence de votre part , peut-être un crie de rage réalisé dans un coussin ( car c'est le 3 ieme appel que vous recevez ) vous lui indiquez gentiment qu'elle ( la personne ) n'est pas __logué__ ! Par la suite vous débranchez votre téléphone pour ménager votre cœur ;-)
+Nous verrons que nous pourrions offrir une visualisation en lecture seul lors des accès anonyme, mais je ne suis pas pour cette pratique. Car vous aurez des appel de support , la personne oublie de s'authentifier puis elle vous appel pour dire que telle option n'est plus disponible ... Après un moment de silence de votre part , peut-être un crie de rage réalisé dans un coussin ( car c'est le 3 ieme appel que vous recevez ) vous lui indiquez gentiment qu'elle ( la personne ) n'est pas __logué__ ! Par la suite vous débranchez votre téléphone pour ménager votre cœur.
 
 Nous ne couvrirons pas la configuration avec le service Ldap ou autre système externe pour le moment je vais me concentré avec la gestion de compte locaux , mais le concept est équivalent avec Ldap. 
 
@@ -711,7 +711,7 @@ Nous avons mis en place la limitation par utilisateur , cependant comme vous pou
 
 ![](./imgs/12-09-security-access-user-pass-not-crypt.png)
 
-Cette opération n'est pas complexe , si je ne le couvre pas dans la vidéo , désolé :P , il est possible que je coupe cette opération afin de gagner du temps ... 
+Cette opération n'est pas complexe , si je ne le couvre pas dans la vidéo , désolé , il est possible que je coupe cette opération afin de gagner du temps ... 
 Nous allons utiliser un conteneur pour faire l'exercice , ceci nous offre encore une opportunité pour habituer avec le processus d'intégration multi conteneur.
 
 Voici la documentation sur le site de Jenkins pour la mise en place d'un proxy devant Jenkins : [https://wiki.jenkins.io/display/JENKINS/Apache+frontend+for+security](https://wiki.jenkins.io/display/JENKINS/Apache+frontend+for+security)
