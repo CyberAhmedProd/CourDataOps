@@ -1,0 +1,27 @@
+version: '2'
+services:
+    jenkins:
+        image: jenkins/jenkins
+        container_name : 'x3-jenkins-f'
+        hostname: jenkins.train.x3rus.com
+        environment:
+            - TZ=America/Montreal
+        volumes:
+            - "/srv/docker/x3-jenkins-f/jenkins-data:/var/jenkins_home"
+        # ports:
+            #- 8080:8080   # Web interface
+            #- 50000:50000 # Build Executors
+    apache-front:
+        image: x3-jenkins-front
+        build: ./apache-front/.
+        container_name : 'x3-jenkins-apache-f'
+        hostname : jenkins-front.train.x3rus.com
+        environment:
+            - TZ=America/Montreal
+            - JENKINS_FQDN=jenkins.local.x3rus.com
+            - JENKINS_ALIAS=jenkins2.local.x3rus.com
+            - ADM_EMAIL=admin@example.com
+        links:
+            - jenkins:jenkins
+
+
